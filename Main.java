@@ -1,12 +1,14 @@
 public class Main {
 	public static void main (String[] args){
 
-		if(args.length > 0){		
-			HelloWorld helloWorld = new HelloWorld(args[0]);
-			helloWorld.setPhrase("Hello");
-			System.out.println(helloWorld.getPhrase() + " " + helloWorld.getNoun());
+		if(args.length > 0){	// if arg	
+						
+			HelloWorld helloWorld = new HelloWorld(args[0]); // Create object with 1st arg
+			helloWorld.setPhrase("Hello"); // set "Hello"
+			System.out.println(helloWorld.getPhrase() + " " + helloWorld.getSubject()); // Concat Phrase and Subject
+
 		}else{
-			System.out.println("Please input your name as first argument");
+			System.out.println("First argument required for program to function");
 		}
 
 	}

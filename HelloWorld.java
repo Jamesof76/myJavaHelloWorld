@@ -1,21 +1,24 @@
 public class HelloWorld {
 
-	private String noun;
+	private String subject;
 	private String phrase;
-
-	public HelloWorld(String sNoun){
-		this.noun = sNoun;		
-	}
-
 	
-	public String getNoun(){
-		return noun;
+	// Constructor
+	public HelloWorld(String sSubject){
+		this.subject = sSubject;		
 	}
 
+	// Function: get Subject
+	public String getSubject(){
+		return subject;
+	}
+
+	// Function: Set Phrase
 	public void setPhrase(String sPhrase){
 		this.phrase = sPhrase;
 	}
 	
+	// Function: get Phrase
 	public String getPhrase(){
 		return phrase;
 	}
