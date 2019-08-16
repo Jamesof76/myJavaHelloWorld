@@ -5,10 +5,10 @@ public class Main {
 						
 			HelloWorld helloWorld = new HelloWorld(args[0]); // Create object with 1st arg
 			helloWorld.setPhrase("Hello"); // set "Hello"
-			System.out.println(helloWorld.getPhrase() + " " + helloWorld.getSubject()); // Concat Phrase and Subject
+			System.out.println(helloWorld.getPhrase() + " " + helloWorld.getSubject()); // Concat Phrase and Subject and print output
 
 		}else{
-			System.out.println("First argument required for program to function");
+			System.out.println("First argument required for program to function"); // Pring info if no arg
 		}
 
 	}
