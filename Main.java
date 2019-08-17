@@ -8,7 +8,7 @@ public class Main {
 			System.out.println(helloWorld.getPhrase() + " " + helloWorld.getSubject()); // Concat Phrase and Subject and print output
 
 		}else{
-			System.out.println("First argument required for program to function"); // Print info if no arg
+			System.out.println("Subject must be entered as first argument."); // Print info if no first arg
 		}
 
 	}
