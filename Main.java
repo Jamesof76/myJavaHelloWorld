@@ -1,7 +1,7 @@
 public class Main {
 	public static void main (String[] args){
 
-		if(args.length > 0){	// if arg	
+		if(args.length > 0){	// check if arg exists	
 						
 			HelloWorld helloWorld = new HelloWorld(args[0]); // Create object with 1st arg
 			helloWorld.setPhrase("Hello"); // set "Hello"
